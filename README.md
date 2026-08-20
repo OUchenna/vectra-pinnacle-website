@@ -1,21 +1,19 @@
 # Vectra Pinnacle Ventures Limited — Website
 
-A single-page company website built from the Memorandum of Association, listing the
-Company's registered objects (clauses A–M) grouped into six operating divisions.
+A single-page company website summarising the Company's Memorandum of Association,
+grouped into six operating divisions.
 
 Stack: React 19 + Vite, plain CSS (no framework), deployed as a static site.
 
-## Before you publish
+## Contact details on the site
 
-The **Contact** section (bottom of the page) uses placeholder text in `src/App.jsx`:
+The **Contact** and **Registration** sections use:
 
-- `[Company address, Nigeria]`
-- `+234 000 000 0000` (placeholder)
-- `[RC number]`
+- Registered office: `Crown Plaza, Utako, Abuja`
+- Email: `info@vectrapinnacle.com`
 
-The email is already set to `info@vectrapinnacle.com`. Search for `contact-grid` in
-`src/App.jsx` and replace the remaining placeholders with the Company's real
-registered office, phone and CAC (RC) number.
+To change either, search for `contact-grid` (contact section) or `cert-inner`
+(registration strip) in `src/App.jsx`.
 
 ## Run it locally
 
@@ -89,6 +87,4 @@ amplify.yml           AWS Amplify build spec
 
 - **Divisions** (the 6 summary cards) — edit the `DIVISIONS` array near the top of
   `src/App.jsx`.
-- **Full objects clause (A–M)** — edit the `OBJECTS` array in the same file. This is
-  the complete text from the Memorandum, shown in the expandable list.
 - **Colors / fonts** — edit the CSS variables at the top of `src/index.css`.
