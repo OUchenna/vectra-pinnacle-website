@@ -211,7 +211,7 @@ function App() {
               </div>
               <div>
                 <dt>Email</dt>
-                <dd>info@vectrapinnacle.com</dd>
+                <dd>contact@vectrapinnacle.com</dd>
               </div>
             </dl>
           </div>
